@@ -1,16 +1,29 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <title>Accessible Web Page</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+
+    <h1 role="heading">My Accessible Page</h1>
+
+    <nav role="navigation">
+        <a href="#">Home</a> |
+        <a href="#">About</a> |
+        <a href="#">Contact</a>
+    </nav>
+
+    <img src="https://via.placeholder.com/300" alt="Sample Image" role="img">
+
+    <p>This is a brief description of the webpage demonstrating ARIA roles usage.</p>
+
+    <ul role="list">
+        <li role="listitem">Item One</li>
+        <li role="listitem">Item Two</li>
+        <li role="listitem">Item Three</li>
+    </ul>
 
 </body>
-
 </html>
